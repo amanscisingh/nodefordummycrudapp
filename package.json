@@ -1,0 +1,19 @@
+{
+  "name": "crudd",
+  "version": "1.0.0",
+  "description": "backend server with db",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "aman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "mongoose": "^5.13.7",
+    "nodemon": "^2.0.12"
+  }
+}
